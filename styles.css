@@ -1,3 +1,46 @@
+/* For small screens */
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 30px 10px; /* Adjust padding for smaller screens */
+  }
+  
+  .profile-image {
+    width: 150px; /* Adjust size of profile image for smaller screens */
+    height: 150px;
+  }
+
+  .about-me {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .section {
+    margin-bottom: 30px; /* Adjust margin for smaller screens */
+  }
+
+  .project-thumbnail {
+    width: calc(50% - 40px); /* Display projects in 2 columns on smaller screens */
+    margin: 0 10px 20px; /* Adjust margin for smaller screens */
+  }
+
+  .social-icons a {
+    font-size: 20px; /* Adjust font size for social icons on smaller screens */
+  }
+}
+
+/* For medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .project-thumbnail {
+    width: calc(33.33% - 40px); /* Display projects in 3 columns on medium screens */
+  }
+}
+
+/* For large screens */
+@media only screen and (min-width: 1025px) {
+  .project-thumbnail {
+    width: calc(25% - 40px); /* Display projects in 4 columns on large screens */
+  }
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
