@@ -52,6 +52,11 @@ header {
   margin-bottom: 20px;
   color: #333;
 }
+.carousel {
+  max-width: 600px; 
+  margin: 0 auto;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
     color: black; 
@@ -63,10 +68,6 @@ header {
 .carousel-control-next:hover {
     color: black; 
     background-color: rgba(0, 0, 0, 0.1); 
-}
-.carousel {
-  max-width: 600px; 
-  margin: 0 auto;
 }
 
 
